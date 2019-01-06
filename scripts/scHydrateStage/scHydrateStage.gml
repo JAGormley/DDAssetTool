@@ -53,6 +53,8 @@ for (var i = 0; i < vCellNum; i++) {
 surface_reset_target()
 global.boxesColSprite = sprite_create_from_surface(boxesColSurf, 0, 0, 480, 270, true, false, 0, 0)
 
+var thing = layer_background_get_id(layer_get_id("Bedrock"))
+
 layer_background_sprite(
 	layer_background_get_id(layer_get_id("Bedrock")),
 	bedrock
@@ -63,7 +65,6 @@ var bedrockLayerDepth = layer_get_depth(layer_get_id("Bedrock"))
 // @TODO: move this code into stage specific hydration scripts
 switch stageType {
 	case stageTypes.space:
-		audio_play_sound(soSpaceAmbient, 2, true)
 		//instance_create_layer(0, 0, "Controllers", oBeamController)
 		instance_create_layer(0, 0, "StageProps", oFrameSpace)
 		BGFar = layer_create(bedrockLayerDepth-1)
