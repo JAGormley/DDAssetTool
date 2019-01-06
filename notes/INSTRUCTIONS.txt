@@ -1,0 +1,31 @@
+--------------------------------------
+-- STEPS TO CREATE A NEW STAGE TYPE --
+--------------------------------------
+
+There are 5 asset objects that make up a basic stage type:
+
+1 Background
+2 Frame
+3 Floor
+4 Wall
+5 Box
+
+STEP 1: Create new folders for your stage type in these dirs:
+	- Sprites/stageAssets
+	- Tile Sets
+	
+STEP 2: Duplicate the template files for each new folder:
+	- Select all the files in Sprites/stageAssets/template/*, then right click and "Duplicate"
+		- The files will be automatically selected, drag them into your new folder
+		- Rename each file based on the naming pattern of the template files (it's p clear)
+	- Do the same with Tile Sets/template/*
+	
+STEP 3: Add your stageType to the `globals` file at the top of the Scripts folder (name it whatever)
+
+STEP 4: Create the asset map:
+	- open scLoadStageRes ---- 
+
+STEP 5: Load your new stageType:
+	- open Obects/controller/oGameController, you'll see the line `StageType = stageTypes.*` 
+		change the current stageType to your new one
+	- push the play button!

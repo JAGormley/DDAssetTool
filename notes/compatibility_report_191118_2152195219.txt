@@ -1,0 +1,47 @@
+Converting GML script: ${project_dir}/scripts/scr_sprite_explode/scr_sprite_explode.gml
+Converted description /// @description scr_sprite_explode(Max Life, Min Life, Max Speed, Min Speed, Max Peice Size, Min Peice Size, Spin, Fade Out, Fade Amt, Fade To Color, End Color, Color Fade Speed, Implode);/// @param Max Life
+/// @param  Min Life
+/// @param  Max Speed
+/// @param  Min Speed
+/// @param  Max Peice Size
+/// @param  Min Peice Size
+/// @param  Spin
+/// @param  Fade Out
+/// @param  Fade Amt
+/// @param  Fade To Color
+/// @param  End Color
+/// @param  Color Fade Speed
+/// @param  Implode
+
+Converting GML script: ${project_dir}/scripts/scr_sprite_dissolve/scr_sprite_dissolve.gml
+Converted description /// @description scr_sprite_dissolve(Dissolve Dir, Dissolve Speed, Chunk Size, Shrink, Shrink amt, Gravity, Fade, Fade amt, Spin, Life);/// @param Dissolve Dir
+/// @param  Dissolve Speed
+/// @param  Chunk Size
+/// @param  Shrink
+/// @param  Shrink amt
+/// @param  Gravity
+/// @param  Fade
+/// @param  Fade amt
+/// @param  Spin
+/// @param  Life
+
+Converting GML script: ${project_dir}/scripts/scr_sprite_radial/scr_sprite_radial.gml
+Converted description /// @description scr_spite_radial(Invert, Dissolve Speed, Chunk Size, Shrink, Shrink amt, Gravity, Fade, Fade amt, Spin, Life);/// @param Invert
+/// @param  Dissolve Speed
+/// @param  Chunk Size
+/// @param  Shrink
+/// @param  Shrink amt
+/// @param  Gravity
+/// @param  Fade
+/// @param  Fade amt
+/// @param  Spin
+/// @param  Life
+
+Converting GML script: ${project_dir}/scripts/scr_sprite_asymble/scr_sprite_asymble.gml
+Converted description /// @description scr_sprite_asymble(Object, Object Sprite, Speed, Radius, Chunk Size);/// @param Object
+/// @param  Object Sprite
+/// @param  Speed
+/// @param  Radius
+/// @param  Chunk Size
+
+Updated compatibility script '__global_object_depths.gml'
